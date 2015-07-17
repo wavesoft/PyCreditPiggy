@@ -1,7 +1,7 @@
 
-# Python API
+# CreditPiggy Daemon Interface
 
-The `cpdaemon` library provides all the high-level routines for interfacing with the creditpiggy daemon that runs in the job-manager site.
+The `creditpiggy` library provides all the high-level routines for interfacing with the creditpiggy daemon that runs in the job-manager site.
 
 If your job management mechanism is written in python, you can use this library off the shelf.
 
