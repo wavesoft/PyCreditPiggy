@@ -14,5 +14,6 @@ setup(
     license = "GPLv2",
     keywords = "creditpiggy library daemon interface",
     url = "https://github.com/wavesoft/creditpiggy",
+    download_url = "https://github.com/wavesoft/creditpiggy/tarball/0.1a1"
 
 )
