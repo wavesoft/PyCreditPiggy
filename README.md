@@ -7,11 +7,13 @@ If your job management mechanism is written in python, you can use this library 
 
 ## API Reference
 
-The following functions are exposed by the `creditapi` library:
+The following functions are exposed by the `creditpiggy` library:
 
 ### cpapi_setup(server_endpoint, credentials=None)
 
-Initialises the CreditPiggy api library. This function should be called in order to define the endpoint where the daemon is running.
+Initialises the CreditPiggy api library. This function should be called before any other CreditPiggy API operations in order to define the endpoint where the daemon is running.
+
+However, if you never call this function, the library is going to assume that you are using the CreditPiggy daemon default set-up, that listens on the UNIX socket at `/var/run/creditapi.socket`. 
 
 <table>
     <tr>
